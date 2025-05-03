@@ -301,11 +301,11 @@ body{
     background-color: rgba(255, 255, 255, .1);
 }
 
-/*.option-list .option.correct{
+.option-list .option.correct{
     background: #09001d;
     color: #00a63d;
     border-color: #00a63d;
-}*/
+}
 
 .option-list .option.incorrect{
     background: #09001d;
