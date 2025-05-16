@@ -1,29 +1,34 @@
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@100..900&family=Protest+Strike&display=swap');
+
+*{
+    font-family: sans-serif;
+}
+
 body {
     font-family: Arial, sans-serif;
     margin: 0;
     background-color: #303833;
-  
     /*padding: 20px;*/
 }
+
 h1 {
     text-align: center;
     color: aliceblue;
-    
 }
 
-img{
+img {
     width: 100%;
     height: 100%;
     position: relative;
     position: fixed;
-    
 }
 
-textarea{
+textarea {
     width: 300px;
     height: 100px;
     margin-left: 20px;
 }
+
 form {
     top: 35%;
     left: 33%;
@@ -45,6 +50,7 @@ label {
 
 input[type="text"],
 input[type="password"],
+select,
 button {
     margin-left: 20px;
     width: 90%;
@@ -65,29 +71,30 @@ button {
 button:hover {
     background-color: #45a049;
 }
-.abc{
+
+.abc {
     color: aliceblue;
 }
-.xyz    {
+
+.xyz {
     color: aliceblue;
 }
-#rt{
+
+#rt {
     width: 150px;
     height: 100px;
     left: 12%;
     margin-top: -160px;
-
 }
 
-#item{
+#item {
     width: 180px;
     height: 120px;
     left: 77%;
     top: 3%;
 }
 
-
-#rs{
+#rs {
     display: flex;
     color: white;
     justify-content: center;
@@ -96,7 +103,8 @@ button:hover {
     width: 900px;
     margin-left: 180px;
 }
-header b{
+
+header b {
     display: flex;
     justify-content: center;
     font-family: Arial, Helvetica, sans-serif;
@@ -105,27 +113,25 @@ header b{
     margin-top: -200px;
 }
 
-
-
-
-.opp{
+.opp {
     font-size: small;
     bottom: 40%;
 }
-.ppg{
+
+.ppg {
     margin-top: -150px;
 }
 
-.phoneError{
+.phoneError {
     color: red;
     display: none;
 }
 
-#submit{
+#submit {
     width: 200px;
     margin-left: 100px;
 }
 
-a{
+a {
     text-decoration: none;
 }
